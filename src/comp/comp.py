@@ -40,7 +40,8 @@ print(b)
 # Write a list comprehension that creates a list of names of everyone
 # whose name starts with any letter between 'C' and 'G' inclusive.
 print("Starts between C and G, inclusive:")
-c = [human.name for human in humans if human.name[0].lower() in 'c d e f g'.split(' ')]
+c = [human.name for human in humans if human.name[0].lower()
+     in 'c d e f g'.split(' ')]
 print(c)
 
 # Write a list comprehension that creates a list of all the ages plus 10.
